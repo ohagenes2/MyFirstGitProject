@@ -27,13 +27,16 @@ namespace MyFirstGitProject
             if (this.panel1.BackColor == Color.Green)
             {
                 this.panel1.BackColor = Color.MediumAquamarine;
+                this.panel2.BackColor = Color.Green;
             }
             else
             {
                 this.panel1.BackColor = Color.Green;
+                this.panel2.BackColor = Color.MediumAquamarine;
             }
 
 
         }
+
     }
 }
